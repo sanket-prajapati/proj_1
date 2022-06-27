@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.bg{
+    width: 100%;
+    height: 855px;
+    position:absolute;
+    z-index:-1;
+    opacity:1.2;
+
+}
+.bg{
+}
+.container{
+    max-width:80%;
+    /* background-color:rgb(133, 169, 175); */
+    padding:34px;
+    /* margin:23px; */
+    margin:auto;
+}
+.container h1{
+    font-size:50px;
+    text-align:center;
+    padding:4px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+p{
+    font-size:22px;
+    text-align:center;
+    padding:4px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#submitMsg{
+    width: 80%;
+    color:#3deb3d;
+    /* background-color: #a48ba8; */
+    margin: auto;
+    border-radius: 8px;
+    font-size:24px;
+}
+input,textarea{
+    width: 80%;
+    margin: 12px auto;
+    padding: 8px;
+    font-size: 16px;
+    border:2px solid black;
+    border-radius:8px;
+    outline:none;
+
+}
+textarea{
+    font-size:18px;
+}
+form{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    flex-direction:column;
+}
+.btn{
+    margin:12px auto;
+    padding:4px 12px;
+    border:2px solid black;
+    border-radius:9px;
+    color:white;
+    background-color:brown;
+    font-size:16px;
+    cursor:pointer;
+}
